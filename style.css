@@ -150,6 +150,18 @@ h1 {
     background-color: #218838;
 }
 
+.comments-section {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    text-align: left; /* Comments look better left-aligned */
+}
+
+.comments-section hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin-bottom: 1.5rem;
+}
+
 @keyframes appear {
     from {
         transform: scale(0);
